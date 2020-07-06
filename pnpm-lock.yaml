@@ -1,0 +1,140 @@
+dependencies:
+  spawno: 2.0.8
+devDependencies:
+  mocha: 2.5.3
+lockfileVersion: 5.1
+packages:
+  /commander/0.6.1:
+    dev: true
+    engines:
+      node: '>= 0.4.x'
+    resolution:
+      integrity: sha1-+mihT2qUXVTbvlDYzbMyDp47GgY=
+  /commander/2.3.0:
+    dev: true
+    engines:
+      node: '>= 0.6.x'
+    resolution:
+      integrity: sha1-/UMOiJgy7DU7ms0d4hfBHLPu+HM=
+  /debug/2.2.0:
+    dependencies:
+      ms: 0.7.1
+    dev: true
+    resolution:
+      integrity: sha1-+HBX6ZWxofauaklgZkE3vFbwOdo=
+  /diff/1.4.0:
+    dev: true
+    engines:
+      node: '>=0.3.1'
+    resolution:
+      integrity: sha1-fyjS657nsVqX79ic5j3P2qPMur8=
+  /escape-string-regexp/1.0.2:
+    dev: true
+    engines:
+      node: '>=0.8.0'
+    resolution:
+      integrity: sha1-Tbwv5nTnGUnK8/smlc5/LcHZqNE=
+  /glob/3.2.11:
+    dependencies:
+      inherits: 2.0.4
+      minimatch: 0.3.0
+    dev: true
+    resolution:
+      integrity: sha1-Spc/Y1uRkPcV0QmH1cAP0oFevj0=
+  /growl/1.9.2:
+    dev: true
+    resolution:
+      integrity: sha1-Dqd0NxXbjY3ixe3hd14bRayFwC8=
+  /inherits/2.0.4:
+    dev: true
+    resolution:
+      integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+  /jade/0.26.3:
+    dependencies:
+      commander: 0.6.1
+      mkdirp: 0.3.0
+    deprecated: 'Jade has been renamed to pug, please install the latest version of pug instead of jade'
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha1-jxDXl32NefL2/4YqgbBRPMslaGw=
+  /lru-cache/2.7.3:
+    dev: true
+    resolution:
+      integrity: sha1-bUUk6LlV+V1PW1iFHOId1y+06VI=
+  /minimatch/0.3.0:
+    dependencies:
+      lru-cache: 2.7.3
+      sigmund: 1.0.1
+    deprecated: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+    dev: true
+    resolution:
+      integrity: sha1-J12O2qxPG7MyZHIInnlJyDlGmd0=
+  /minimist/0.0.8:
+    dev: true
+    resolution:
+      integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+  /mkdirp/0.3.0:
+    deprecated: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+    dev: true
+    resolution:
+      integrity: sha1-G79asbqCevI1dRQ0kEJkVfSB/h4=
+  /mkdirp/0.5.1:
+    dependencies:
+      minimist: 0.0.8
+    deprecated: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  /mocha/2.5.3:
+    dependencies:
+      commander: 2.3.0
+      debug: 2.2.0
+      diff: 1.4.0
+      escape-string-regexp: 1.0.2
+      glob: 3.2.11
+      growl: 1.9.2
+      jade: 0.26.3
+      mkdirp: 0.5.1
+      supports-color: 1.2.0
+      to-iso-string: 0.0.2
+    dev: true
+    engines:
+      node: '>= 0.8.x'
+    hasBin: true
+    resolution:
+      integrity: sha1-FhvlvetJZ3HrmzV0UFC2IrWu/Fg=
+  /ms/0.7.1:
+    dev: true
+    resolution:
+      integrity: sha1-nNE8A62/8ltl7/3nzoZO6VIBcJg=
+  /proc-output/1.0.7:
+    dev: false
+    resolution:
+      integrity: sha512-/0vbJ1s2EAqW4ddiHfOgB2ui9sTHGtLVdVDnjyBFHq1g3cVH1Dt2EZoux5P19Ie+aiilB3j1dCgJTcXIp1T2Cw==
+  /sigmund/1.0.1:
+    dev: true
+    resolution:
+      integrity: sha1-P/IfGYytIXX587eBhT/ZTQ0ZtZA=
+  /spawno/2.0.8:
+    dependencies:
+      proc-output: 1.0.7
+    dev: false
+    resolution:
+      integrity: sha512-kZjZrFEiZaloW6iVIOLWOGYSQVFWxTvT5ShJgkxe3bY2HA6Yc2FP13KcmO0TbOZZ3ld35RlcIQvYKbIfIDscew==
+  /supports-color/1.2.0:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-/x7R5hFp0Gs88tWI4YixjYhH4X4=
+  /to-iso-string/0.0.2:
+    deprecated: 'to-iso-string has been deprecated, use @segment/to-iso-string instead.'
+    dev: true
+    resolution:
+      integrity: sha1-TcGeZk38y+Jb2NtQiwDG2hWCVdE=
+specifiers:
+  mocha: ^2.2.4
+  spawno: ^2.0.1

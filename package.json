@@ -1,6 +1,6 @@
 {
-  "name": "diable",
-  "version": "4.0.2",
+  "name": "@zkochan/diable",
+  "version": "0.0.0",
   "description": "Daemonize the things out.",
   "main": "lib/index.js",
   "bin": {
@@ -27,33 +27,17 @@
     "h_img": "http://i.imgur.com/i0aopxe.png"
   },
   "dependencies": {
-    "bug-killer": "^4.0.0",
-    "clp": "^3.0.0",
-    "spawno": "^2.0.1",
-    "typpy": "^2.1.0",
-    "ul": "^5.0.0"
+    "spawno": "^2.0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IonicaBizau/diable.git"
+    "url": "git+https://github.com/zoli-forks/diable.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/diable/issues"
+    "url": "https://github.com/zoli-forks/diable/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/diable",
+  "homepage": "https://github.com/zoli-forks/diable",
   "files": [
-    "bin/",
-    "app/",
-    "lib/",
-    "dist/",
-    "src/",
-    "scripts/",
-    "resources/",
-    "menu/",
-    "cli.js",
-    "index.js",
-    "bloggify.js",
-    "bloggify.json",
-    "bloggify/"
+    "lib/"
   ]
 }
