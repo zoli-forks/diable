@@ -3,13 +3,6 @@
   "version": "1.0.0",
   "description": "Daemonize the things out.",
   "main": "lib/index.js",
-  "bin": {
-    "diable": "./bin/diable"
-  },
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
   "scripts": {
     "test": "mocha test"
   },
@@ -22,9 +15,6 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.2.4"
-  },
-  "blah": {
-    "h_img": "http://i.imgur.com/i0aopxe.png"
   },
   "dependencies": {
     "spawno": "^2.0.1"
