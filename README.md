@@ -3,6 +3,7 @@
 # @zkochan/diable`
 
 This is a fork of [diable](https://github.com/IonicaBizau/diable) with less dependencies.
+Which is a fork of [daemon.node](https://github.com/indexzero/daemon.node).
 
 > Daemonize the things out.
 
